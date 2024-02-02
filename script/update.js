@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-async() => {
+export const writeReadMeMd = async() => {
   let listFile = await fs.readFile(process.cwd() + '/list.json', 'utf-8');
   const subListJSON = JSON.parse(listFile);
   let list = ``;
@@ -11,3 +11,4 @@ async() => {
   const readMeMdText = mdTemplate.replaceAll('--thirdPartySubList--', list);
   await fs.writeFile(process.cwd() + '/README.md', readMeMdText);
 }
+writeReadMeMd();
