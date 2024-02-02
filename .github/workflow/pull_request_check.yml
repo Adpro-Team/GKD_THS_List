@@ -1,0 +1,24 @@
+name: pull_request_check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check:
+    if: github.repository == 'Adpro-Team/GKD_thirdParty_subscription_list'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@vv4.1.1
+
+      - run: npm ci
+
+      - name: Ensure Files Changed
+        uses: danieljimeneznz/ensure-files-changed@v4.1.1
+        with:
+          require-changes-to: |
+            list.json
+          prevent-changes-to: |
+            *.md
+          token: ${{ secret.GITHUB_TOKEN }}

@@ -1,0 +1,39 @@
+name: generate_readme
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  generate_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@vv4.1.1
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4.0.1
+
+      - id: version
+        run: node script/update.js
+
+      - name: Git commit
+        id: commit
+        run: |
+          git config --local user.email github-actions[bot]@users.noreply.github.com
+          git config --local user.name github-actions[bot]
+          git config --global core.autocrlf true
+          git config --global core.safecrlf false
+          git status
+          git add .
+          git commit -a -m "doc: update list.json"
+        continue-on-error: true
+
+      - name: Git push
+        if: ${{ steps.commit.outcome == 'success' }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
