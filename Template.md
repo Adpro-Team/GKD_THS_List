@@ -6,10 +6,12 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 ---
 
+第三方订阅列表：
+
 --thirdPartySubList--
 
 ---
 
 ## 感谢以下第三方维护者
 
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_thirdParty_subscription_list)
+![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_THS_List)
