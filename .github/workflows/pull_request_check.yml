@@ -7,7 +7,7 @@ on:
 
 jobs:
   check:
-    if: github.repository == 'Adpro-Team/GKD_thirdParty_subscription_list'
+    if: github.repository == 'Adpro-Team/GKD_THS_List'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1

@@ -1,4 +1,4 @@
-# @Adpro-Team/GKD_thirdParty_subscription_list
+# @Adpro-Team/GKD_THS_List
 
 Adpro-Team 整理的GKD第三方订阅列表
 
