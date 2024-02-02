@@ -10,7 +10,7 @@ jobs:
     if: github.repository == 'Adpro-Team/GKD_thirdParty_subscription_list'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@vv4.1.1
+      - uses: actions/checkout@v4.1.1
 
       - run: npm ci
 
@@ -21,4 +21,4 @@ jobs:
             list.json
           prevent-changes-to: |
             *.md
-          token: ${{ secret.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
