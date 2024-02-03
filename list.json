@@ -1,12 +1,14 @@
 [
   {
     "name": "Adpro的GKD订阅",
+    "author": "Adpro",
     "subUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5",
     "repo": "Adpro-Team/GKD_subscription",
     "branch": "main"
   },
   {
     "name": "AIsouler的GKD订阅",
+    "author": "AIsouler",
     "subUrl": "https://raw.gitmirror.com/AIsouler/subscription/main/dist/AIsouler_gkd.json5",
     "repo": "AIsouler/GKD_subscription",
     "branch": "main"
