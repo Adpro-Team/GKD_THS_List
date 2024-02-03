@@ -6,12 +6,12 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 ---
 
-第三方订阅列表：
+第三方订阅列表（带*号为无Github仓库，超链接为订阅链接）：
 
 --thirdPartySubList--
 
 ---
 
-## 感谢以下第三方维护者
+## 快捷打开GKD
 
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_THS_List)
+[点我打开GKD](gkd://import)

@@ -16,8 +16,8 @@ jobs:
 
       - uses: actions/setup-node@v4.0.1
 
-      - id: version
-        run: node script/update.js
+      - run: node script/update.js
+        continue-on-error: true
 
       - name: Git commit
         id: commit
