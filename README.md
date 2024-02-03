@@ -8,8 +8,8 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 第三方订阅列表（带*号为无Github仓库，超链接为订阅链接）：
 
-- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main)<br>
-- [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main)<br>
+- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro<br>
+- [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler<br>
 
 
 ---
