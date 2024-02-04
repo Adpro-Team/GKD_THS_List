@@ -7,7 +7,7 @@
   },
   {
     "name": "AIsouler的GKD订阅",
-    "subUrl": "https://raw.gitmirror.com/AIsouler/subscription/main/dist/AIsouler_gkd.json5",
+    "subUrl": "https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5",
     "repo": "AIsouler/GKD_subscription",
     "branch": "main"
   }
