@@ -28,7 +28,7 @@ jobs:
           git config --global core.safecrlf false
           git status
           git add .
-          git commit -a -m "doc: update list.json"
+          git commit -a -m "doc: update README.md"
         continue-on-error: true
 
       - name: Git push
