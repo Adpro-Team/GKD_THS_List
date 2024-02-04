@@ -10,6 +10,7 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 - [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro<br>
 - [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler<br>
+- [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai<br>
 
 
 ---
