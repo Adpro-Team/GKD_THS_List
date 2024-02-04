@@ -12,5 +12,12 @@
     "subUrl": "https://raw.gitmirror.com/AIsouler/subscription/main/dist/AIsouler_gkd.json5",
     "repo": "AIsouler/GKD_subscription",
     "branch": "main"
+  },
+  {
+    "name": "奥怪的GKD订阅",
+    "author": "aoguai",
+    "subUrl": "https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5",
+    "repo": "aoguai/subscription",
+    "branch": "custom"
   }
 ]
