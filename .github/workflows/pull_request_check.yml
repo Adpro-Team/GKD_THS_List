@@ -22,3 +22,7 @@ jobs:
           prevent-changes-to: |
             *.md
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4.0.1
+
+      - run: node script/check.js
