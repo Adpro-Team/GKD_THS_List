@@ -20,3 +20,11 @@ Adpro-Team 整理的GKD第三方订阅列表
 本项目仅仅为整合GKD第三方订阅的仓库，规则使用中遇到的任何问题，请到对应的仓库或联系对应的作者反馈。
 
 如果对本项目本体有建议，请在issues页提出issue，或fork本仓库，并提交PR（若修改代码PR检查会失败，为正常情况）
+
+## 协议
+
+本项目遵循 CC BY-NC-SA 4.0 协议。
+
+即：署名-非商业性使用-相同方式共享 4.0 协议
+
+[点此查看协议全文（中文）](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)
