@@ -4,7 +4,8 @@
     "author": "Adpro",
     "subUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5",
     "repo": "Adpro-Team/GKD_subscription",
-    "branch": "main"
+    "branch": "main",
+    "active": true
   },
   {
     "name": "AIsouler的GKD订阅",
