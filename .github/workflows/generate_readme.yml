@@ -16,7 +16,10 @@ jobs:
 
       - uses: actions/setup-node@v4.0.1
 
-      - id: version
+      - id: check
+        run: node script/check.js
+      
+      - if: ${{ steps.check.outcome == 'success' }}
         run: node script/update.js
 
       - name: Git commit
@@ -28,7 +31,7 @@ jobs:
           git config --global core.safecrlf false
           git status
           git add .
-          git commit -a -m "doc: update list.json"
+          git commit -a -m "doc: update README.md"
         continue-on-error: true
 
       - name: Git push

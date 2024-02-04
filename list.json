@@ -1,6 +1,7 @@
 [
   {
     "name": "Adpro的GKD订阅",
+    "author": "Adpro",
     "subUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5",
     "repo": "Adpro-Team/GKD_subscription",
     "branch": "main"
@@ -9,6 +10,15 @@
     "name": "AIsouler的GKD订阅",
     "subUrl": "https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5",
     "repo": "AIsouler/GKD_subscription",
-    "branch": "main"
+    "branch": "main",
+    "active": true
+  },
+  {
+    "name": "奥怪的GKD订阅",
+    "author": "aoguai",
+    "subUrl": "https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5",
+    "repo": "aoguai/subscription",
+    "branch": "custom",
+    "active": true
   }
 ]
