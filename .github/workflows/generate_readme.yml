@@ -16,8 +16,11 @@ jobs:
 
       - uses: actions/setup-node@v4.0.1
 
-      - run: node script/update.js
-        continue-on-error: true
+      - id: check
+        run: node script/check.js
+      
+      - if: ${{ steps.check.outcome == 'success' }}
+        run: node script/update.js
 
       - name: Git commit
         id: commit
