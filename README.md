@@ -10,13 +10,13 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 说明：
 
-1. 带*号为无Github仓库，超链接为订阅链接
+1. 带*号为无Github仓库
 
 2. 带删除线的为停止维护订阅
 
-- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro<br>
-- [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler<br>
-- [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai<br>
+- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro [订阅链接](https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5)<br>
+- [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler [订阅链接](https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5)<br>
+- [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai [订阅链接](https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5)<br>
 
 
 ---
