@@ -18,7 +18,7 @@
   {
     "name": "奥怪的GKD订阅",
     "author": "aoguai",
-    "subUrl": "https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5",
+    "subUrl": "https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5",
     "repo": "aoguai/subscription",
     "branch": "custom",
     "active": true
