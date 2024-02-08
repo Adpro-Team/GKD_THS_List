@@ -14,7 +14,7 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 2. 带*为停止维护订阅
 
-- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro[订阅链接](https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5) - [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler[订阅链接](https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5) - [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai[订阅链接](https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5) - 
+- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro[订阅链接](https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5) - [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler[订阅链接](https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5) - [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai[订阅链接](https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5) 
 
 ---
 
