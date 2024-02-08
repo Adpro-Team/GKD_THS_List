@@ -13,7 +13,7 @@ export const writeReadMeMd = async() => {
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
       list += `[${urlName}](${subListJSON[i].subUrls[j].importUrl}) `;
     }
-    list +='\r';
+    list +='\r- ';
   }
   const mdTemplate = await fs.readFile(process.cwd() + '/Template.md', 'utf-8');
   const readMeMdText = mdTemplate.replaceAll('--thirdPartySubList--', list);
