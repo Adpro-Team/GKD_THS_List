@@ -9,7 +9,7 @@ export const writeReadMeMd = async() => {
     if(subListJSON[i].repo == '') list += `${subListJSON[i].name}`;
     else list += `[${subListJSON[i].name}](https://github.com/${subListJSON[i].repo}/tree/${subListJSON[i].branch})`;
     list += ` By ${subListJSON[i].author}`;
-    for(let j in subListJSON[i].subUrls[j]){
+    for(let j in subListJSON[i].subUrls){
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
       list += `[${urlName}](${subListJSON[i].subUrls[j].importUrl}) `;
     }
