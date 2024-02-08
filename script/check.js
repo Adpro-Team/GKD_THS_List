@@ -10,8 +10,15 @@ export const check = async() => {
     if(subListJSON[i].author == ''){
       throw new Error('The value of author is empty');
     }
-    if(subListJSON[i].subUrl == ''){
-      throw new Error('Can not find the subscription import url');
+    if(Array.isArray(subListJSON[i].subUrls) === false){
+      throw new Error('The subUrls is not an array');
+    }
+    else{
+      for(let j in subListJSON[i].subUrls){
+        if(subListJSON[i].subUrls[j].hasOwnProperty('importUrl') === false){
+          throw new Error('There is no "importUrl" key in the object');
+        }
+      }
     }
     if(subListJSON[i].active != true && subListJSON[i].active != false){
       throw new Error('The value of active is not a boolen value');

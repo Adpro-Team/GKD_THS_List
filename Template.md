@@ -10,9 +10,9 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 说明：
 
-1. 带*号为无Github仓库
+1. 订阅名非超链接为无Github仓库
 
-2. 带删除线的为停止维护订阅
+2. 带*为停止维护订阅
 
 --thirdPartySubList--
 
