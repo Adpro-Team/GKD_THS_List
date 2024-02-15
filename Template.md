@@ -4,6 +4,8 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 如何添加你自己的订阅 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+我需要你们的帮助，详阅[这条issue](https://github.com/Adpro-Team/GKD_THS_List/issues/7)
+
 ---
 
 第三方订阅列表：
