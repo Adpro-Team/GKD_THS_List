@@ -12,11 +12,9 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 说明：
 
-1. 订阅名非超链接为无Github仓库
-
-2. 带*为停止维护订阅
-
-- [Adpro的GKD订阅](https://github.com/Adpro-Team/GKD_subscription/tree/main) By Adpro [订阅链接](https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5) - [AIsouler的GKD订阅](https://github.com/AIsouler/GKD_subscription/tree/main) By AIsouler [订阅链接](https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5) - [奥怪的GKD订阅](https://github.com/aoguai/subscription/tree/custom) By aoguai [Github源](https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5) [npmmirror源](https://registry.npmmirror.com/@aoguai/subscription/latest/files) [gitmirror源](https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5) [Cloudflare源](https://gkd.aoguai.top/) [jsDelivr源](https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5) 
+|订阅名|作者|Github仓库|订阅链接|维护状态|
+|-----|---|---------|-------|------|
+|Adpro的GKD订阅|Adpro|[Adpro-Team/GKD_subscription](https://github.com/Adpro-Team/GKD_subscription/tree/main)|<ul><li>[订阅链接](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#订阅链接)</li><br></ul>|仍在维护||AIsouler的GKD订阅|AIsouler|[AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription/tree/main)|<ul><li>[订阅链接](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#订阅链接)</li><br></ul>|仍在维护||奥怪的GKD订阅|aoguai|[aoguai/subscription](https://github.com/aoguai/subscription/tree/custom)|<ul><li>[Github源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Github源)</li><br><li>[npmmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#npmmirror源)</li><br><li>[gitmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#gitmirror源)</li><br><li>[Cloudflare源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Cloudflare源)</li><br><li>[jsDelivr源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#jsDelivr源)</li><br></ul>|仍在维护|
 
 ---
 
