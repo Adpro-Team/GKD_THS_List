@@ -5,15 +5,17 @@ export const writeReadMeMd = async() => {
   const subListJSON = JSON.parse(listFile);
   let list = ``;
   for(let i in subListJSON){
-    list += '- '
-    if(subListJSON[i].active == false) list += '*';
-    if(subListJSON[i].repo == '') list += `${subListJSON[i].name}`;
-    else list += `[${subListJSON[i].name}](https://github.com/${subListJSON[i].repo}/tree/${subListJSON[i].branch})`;
-    list += ` By ${subListJSON[i].author} `;
+    let repository = subListJSON[i].repo == '' ? null : subListJSON[i].repo;
+    let branch = repository == null ? null : subListJSON[i].branch;
+    let repoUrl = repository != null && branch != null ? `https://github.com/${subListJSON[i].repo}/tree/${subListJSON[i].branch}` : null;
+    let repoText = repoUrl == null ? '无' : subListJSON[i].repo;
+    list += `|${subListJSON[i].name}|${subListJSON[i].author}|`;
+    list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl})|`;
     for(let j in subListJSON[i].subUrls){
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
-      list += `[${urlName}](${subListJSON[i].subUrls[j].importUrl}) `;
+      list += `- [${urlName}](${subListJSON[i].subUrls[j].importUrl})<br>`;
     }
+    list += subListJSON[i].active == true ? '|仍在维护|' : '|停止维护|';
     list +='\r';
   }
   const mdTemplate = await fs.readFile(process.cwd() + '/Template.md', 'utf-8');
