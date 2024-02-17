@@ -4,8 +4,6 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 如何添加你自己的订阅 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-我需要你们的帮助，详阅[这条issue](https://github.com/Adpro-Team/GKD_THS_List/issues/7)
-
 ---
 
 第三方订阅列表：
@@ -14,7 +12,7 @@ Adpro-Team 整理的GKD第三方订阅列表
 
 |订阅名|作者|Github仓库|订阅链接|维护状态|
 |-----|---|---------|-------|------|
-|Adpro的GKD订阅|Adpro|[Adpro-Team/GKD_subscription](https://github.com/Adpro-Team/GKD_subscription/tree/main)|<ul><li>[订阅链接](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#订阅链接)</li><br></ul>|仍在维护||AIsouler的GKD订阅|AIsouler|[AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription/tree/main)|<ul><li>[订阅链接](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#订阅链接)</li><br></ul>|仍在维护||奥怪的GKD订阅|aoguai|[aoguai/subscription](https://github.com/aoguai/subscription/tree/custom)|<ul><li>[Github源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Github源)</li><br><li>[npmmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#npmmirror源)</li><br><li>[gitmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#gitmirror源)</li><br><li>[Cloudflare源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Cloudflare源)</li><br><li>[jsDelivr源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#jsDelivr源)</li><br></ul>|仍在维护|
+|Adpro的GKD订阅|Adpro|[Adpro-Team/GKD_subscription](https://github.com/Adpro-Team/GKD_subscription/tree/main)|<ul><li>[Adpro的GKD订阅订阅链接1](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Adpro的GKD订阅订阅链接1)</li><br></ul>|仍在维护||AIsouler的GKD订阅|AIsouler|[AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription/tree/main)|<ul><li>[AIsouler的GKD订阅订阅链接1](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#AIsouler的GKD订阅订阅链接1)</li><br></ul>|仍在维护||奥怪的GKD订阅|aoguai|[aoguai/subscription](https://github.com/aoguai/subscription/tree/custom)|<ul><li>[Github源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Github源)</li><br><li>[npmmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#npmmirror源)</li><br><li>[gitmirror源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#gitmirror源)</li><br><li>[Cloudflare源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#Cloudflare源)</li><br><li>[jsDelivr源](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#jsDelivr源)</li><br></ul>|仍在维护|
 
 ---
 
