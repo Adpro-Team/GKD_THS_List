@@ -32,12 +32,7 @@ export const writeUrlListMd = async() => {
     for(let j in subListJSON[i].subUrls){
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
       list += `## ${urlName}\r`;
-      list += `
-      \`\`\`text
-      ${subListJSON[i].subUrls[j].importUrl}
-      \`\`\`
-      
-      `;
+      list += `\`\`\`text\r${subListJSON[i].subUrls[j].importUrl}\r\`\`\`\r`;
     }
   }
   await fs.writeFile(process.cwd() + '/importUrlsList.md', list);
