@@ -39,9 +39,7 @@ export const writeUrlListMd = async() => {
       `;
     }
   }
-  const mdTemplate = await fs.readFile(process.cwd() + '/importUrlsList.md', 'utf-8');
-  const readMeMdText = mdTemplate.replaceAll('--thirdPartySubList--', list);
-  await fs.writeFile(process.cwd() + '/importUrlsList.md', mdTemplate);
+  await fs.writeFile(process.cwd() + '/importUrlsList.md', list);
 }
 
 writeReadMeMd();
