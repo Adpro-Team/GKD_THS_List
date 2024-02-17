@@ -1,4 +1,4 @@
-name: generate_readme
+name: generate_md
 
 on:
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
           git config --global core.safecrlf false
           git status
           git add .
-          git commit -a -m "doc: update README.md"
+          git commit -a -m "doc: update README and importUrlsList"
         continue-on-error: true
 
       - name: Git push

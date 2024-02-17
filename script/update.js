@@ -33,9 +33,10 @@ export const writeUrlListMd = async() => {
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
       list += `## ${urlName}\r`;
       list += `
-        \`\`\`text
-        ${subListJSON[i].subUrls[j].importUrl}
-        \`\`\`\r
+      \`\`\`text
+      ${subListJSON[i].subUrls[j].importUrl}
+      \`\`\`
+      
       `;
     }
   }
