@@ -12,8 +12,10 @@ export const writeReadMeMd = async() => {
     list += `|${subListJSON[i].name}|${subListJSON[i].author}|`;
     list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl})|<ul>`;
     for(let j in subListJSON[i].subUrls){
-      const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
+      let index = 1;
+      const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : `${subListJSON[i].name}订阅链接${String(index)}`;
       list += `<li>[${urlName}](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${urlName})</li><br>`;
+      index++;
     }
     list += subListJSON[i].active == true ? '</ul>|仍在维护|' : '</ul>|停止维护|';
     list +='\r';
@@ -30,9 +32,11 @@ export const writeUrlListMd = async() => {
   for(let i in subListJSON){
     list += `# ${subListJSON[i].name}\r`;
     for(let j in subListJSON[i].subUrls){
-      const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : '订阅链接';
+      let index = 1;
+      const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : `${subListJSON[i].name}订阅链接${String(index)}`;
       list += `## ${urlName}\r`;
       list += `\`\`\`text\r${subListJSON[i].subUrls[j].importUrl}\r\`\`\`\r`;
+      index++;
     }
   }
   await fs.writeFile(process.cwd() + '/importUrlsList.md', list);
