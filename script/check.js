@@ -7,9 +7,18 @@ export const check = async() => {
     if(subListJSON[i].name == ''){
       throw new Error('The value of name is empty');
     }
+
     if(subListJSON[i].author == ''){
       throw new Error('The value of author is empty');
     }
+
+    if(subListJSON[i].id == ''){
+      throw new Error('The value of id is empty');
+    }
+    else if(typeof subListJSON[i].id != 'number'){
+      throw new Error('The value of id is not a number');
+    }
+
     if(Array.isArray(subListJSON[i].subUrls) === false){
       throw new Error('The subUrls is not an array');
     }
@@ -20,9 +29,11 @@ export const check = async() => {
         }
       }
     }
-    if(subListJSON[i].active != true && subListJSON[i].active != false){
+
+    if(typeof subListJSON[i].active != 'boolean'){
       throw new Error('The value of active is not a boolen value');
     }
+
     if((subListJSON[i].repo == '' && subListJSON[i].branch != '') || (subListJSON[i].repo != '' && subListJSON[i].branch == '')){
       throw new Error('The values of repo and branch must be empty or completed at the same time');
     }
