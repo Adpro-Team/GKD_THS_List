@@ -51,5 +51,17 @@
     "repo": "aoguai/subscription",
     "branch": "custom",
     "active": true
+  },
+  {
+    "name": "甘霖的GKD订阅",
+    "author": "ganlinte",
+    "subUrls": [
+      {
+        "importUrl": "https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5"
+      }
+    ],
+    "repo": "ganlinte/GKD-subscription",
+    "branch": "main",
+    "active": true
   }
 ]
