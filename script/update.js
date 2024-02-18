@@ -9,7 +9,7 @@ export const writeReadMeMd = async() => {
     let branch = repository == null ? null : subListJSON[i].branch;
     let repoUrl = repository != null && branch != null ? `https://github.com/${subListJSON[i].repo}/tree/${subListJSON[i].branch}` : null;
     let repoText = repoUrl == null ? '无' : subListJSON[i].repo;
-    list += `|${subListJSON[i].name}|${subListJSON[i].author}|`;
+    list += `|${subListJSON[i].name}|${String(subListJSON[i].id)}|${subListJSON[i].author}|`;
     list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl})|<ul>`;
     for(let j in subListJSON[i].subUrls){
       let index = 1;

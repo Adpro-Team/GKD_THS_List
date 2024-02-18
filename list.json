@@ -2,6 +2,7 @@
   {
     "name": "Adpro的GKD订阅",
     "author": "Adpro",
+    "id": 825,
     "subUrls": [
       {
         "importUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5"
@@ -14,6 +15,7 @@
   {
     "name": "AIsouler的GKD订阅",
     "author": "AIsouler",
+    "id": 666,
     "subUrls": [
       {
         "importUrl": "https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5"
@@ -26,6 +28,7 @@
   {
     "name": "奥怪的GKD订阅",
     "author": "aoguai",
+    "id": 86,
     "subUrls": [
       {
         "name": "Github源",
@@ -55,6 +58,7 @@
   {
     "name": "甘霖的GKD订阅",
     "author": "ganlinte",
+    "id": 233,
     "subUrls": [
       {
         "importUrl": "https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5"
@@ -67,6 +71,7 @@
   {
     "name": "Jamison Leo的GKD订阅",
     "author": "Jamison Leo",
+    "id": 1025,
     "subUrls": [
       {
         "importUrl": "https://raw.gitmirror.com/JamisonLeo/GKD-subscription/main/subscription.json"
