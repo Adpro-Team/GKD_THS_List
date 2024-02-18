@@ -14,7 +14,9 @@ export const writeReadMeMd = async() => {
     for(let j in subListJSON[i].subUrls){
       let index = 1;
       const urlName = subListJSON[i].subUrls[j].hasOwnProperty('name') ? subListJSON[i].subUrls[j].name : `${subListJSON[i].name}-订阅链接${String(index)}`;
-      list += `<li>[${urlName}](https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${urlName})</li><br>`;
+      let url = `https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${urlName}`;
+      url = url.replaceAll(' ','-');
+      list += `<li>[${urlName}](${url})</li><br>`;
       index++;
     }
     list += subListJSON[i].active == true ? '</ul>|仍在维护|' : '</ul>|停止维护|';
