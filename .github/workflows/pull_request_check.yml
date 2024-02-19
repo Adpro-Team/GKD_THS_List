@@ -18,11 +18,9 @@ jobs:
         uses: danieljimeneznz/ensure-files-changed@v4.1.1
         with:
           require-changes-to: |
-            list.json
-          prevent-changes-to: |
-            *.md
+            list.ts
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4.0.1
 
-      - run: node script/check.js
+      - run: npm exec tsx ./scripts/check.ts
