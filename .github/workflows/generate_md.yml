@@ -18,10 +18,10 @@ jobs:
       - uses: actions/setup-node@v4.0.1
 
       - id: check
-        run: node script/check.js
+        run: npm exec tsx ./scripts/check.ts
       
       - if: ${{ steps.check.outcome == 'success' }}
-        run: node script/update.js
+        run: npm exec tsx ./scripts/update.ts
 
       - name: Git commit
         id: commit
