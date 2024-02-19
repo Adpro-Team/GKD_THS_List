@@ -21,6 +21,11 @@ type CommonInfo = {
   id: number;
 
   /**
+   * 若与现有收录订阅的id存在重复，则填写该字段
+   */
+  duplicate?: boolean;
+
+  /**
    * 包含所有订阅链接的数组
    */
   subUrls: IArray<SubUrlsInfo>;
