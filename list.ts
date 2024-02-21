@@ -83,4 +83,17 @@ export const List: Root = [
     branch: "main",
     active: true,
   },
+  {
+    name: "YaChengMu的GKD订阅",
+    author: "YaChengMu",
+    id: 303,
+    subUrls: [
+      {
+        importUrl: "https://raw.gitmirror.com/YaChengMu/subscription/main/dist/gkd.json5",
+      },
+    ],
+    repo: "YaChengMu/subscription",
+    branch: "main",
+    active: true,
+  },
 ];
