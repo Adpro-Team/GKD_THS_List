@@ -21,7 +21,7 @@ export const writeReadMeMd = async() => {
       let index = 1;
       const urlName = b.hasOwnProperty('name') ? b.name : `${a.name}-订阅链接${String(index)}`;
       let url = `https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${urlName}`;
-      url = url.replace(/ /g,'-');
+      url = url.replace(/ /g,'-').replace(/[\uFF08-\uFF09]/g,'');
       list += `<li>[${urlName}](${url})</li><br>`;
       index++;
     });
