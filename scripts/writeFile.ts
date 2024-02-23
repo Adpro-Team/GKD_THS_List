@@ -19,8 +19,8 @@ export const writeReadMeMd = async() => {
     const subUrlsArray = iArrayToArray(a.subUrls);
     subUrlsArray.forEach((b)=>{
       let index = 1;
-      const urlName = b.hasOwnProperty('name') ? b.name : `${a.name}-订阅链接${String(index)}`;
-      let url = `https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${urlName}`;
+      const urlName = b.hasOwnProperty('name') ? b.name : `订阅链接${String(index)}`;
+      let url = `https://github.com/Adpro-Team/GKD_THS_List/blob/main/importUrlsList.md#${a.name}-${urlName}`;
       url = url.replace(/ /g,'-').replace(/[\uFF08-\uFF09]/g,'');
       list += `<li>[${urlName}](${url})</li><br>`;
       index++;
@@ -41,7 +41,7 @@ export const writeUrlListMd = async() => {
     const subUrlsArray = iArrayToArray(a.subUrls);
     subUrlsArray.forEach((b)=>{
       let index = 1;
-      const urlName = b.hasOwnProperty('name') ? b.name : `${a.name}-订阅链接${String(index)}`;
+      const urlName = b.hasOwnProperty('name') ? `${a.name}-${b.name}` : `${a.name}-订阅链接${String(index)}`;
       list += `## ${urlName}\r`;
       list += `\`\`\`text\r${b.importUrl}\r\`\`\`\r`;
       index++;
