@@ -17,6 +17,11 @@ export const check = ()=>{
   });
   let temp: number[] = [];
   for(let i = 0; i < id.length; i++){
+    if(id[i] <= 0){
+      throw new Error('Id can not be negative number or zero.');
+      return
+    }
+
     if(temp.indexOf(id[i]) != -1 && ListArray[i].duplicate !== true){
       throw new Error('Can not add the subscription that has same ids.');
       return
