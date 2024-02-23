@@ -1,4 +1,4 @@
-import { Root, IArray } from "./types";
+import type { Root, IArray } from "./types";
 import { List } from "../list";
 import fs from 'node:fs/promises';
 
