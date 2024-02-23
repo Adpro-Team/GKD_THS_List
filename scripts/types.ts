@@ -26,6 +26,11 @@ type CommonInfo = {
   duplicate?: boolean;
 
   /**
+   * 是否为本地订阅
+   */
+  local?: boolean;
+
+  /**
    * 包含所有订阅链接的数组
    */
   subUrls: IArray<SubUrlsInfo>;
