@@ -37,6 +37,9 @@ type CommonInfo = {
 
   /**
    * Github仓库名，形如：用户名/仓库名
+   * 
+   * @example
+   * Adpro-Team/GKD_THS_List
    */
   repo?: string;
 

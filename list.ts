@@ -67,6 +67,10 @@ export const List: Root = [
         importUrl: 'https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5',
       },
       {
+        name: 'npmmirror源',
+        importUrl: 'https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files',
+      },
+      {
         name: '国内镜像',
         importUrl: 'https://raw.gitmirror.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5',
       },
