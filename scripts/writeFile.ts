@@ -9,7 +9,7 @@ export const writeReadMeMd = async() => {
     let repoUrl = repository != null && branch != null ? `https://github.com/${a.repo}/tree/${a.branch}` : null;
     let repoText = repoUrl == null ? '无' : a.repo;
     list += `|${a.name}|${String(a.id)}|${a.author}|`;
-    list += a.prescribedUpdateUrl == undefined || a.prescribedUpdateUrl ? '由订阅内部规定链接更新' : '从导入链接更新';
+    list += a.prescribedUpdateUrl == undefined || a.prescribedUpdateUrl ? '由订阅内部规定链接更新|' : '从导入链接更新|';
     list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl})|<ul>`;
     const subUrls = a.subUrls;
     subUrls.forEach((b)=>{
