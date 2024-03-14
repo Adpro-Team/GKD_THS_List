@@ -19,6 +19,15 @@ type CommonInfo = {
   id: number;
 
   /**
+   * 订阅中的 `updateUrl` 是否规定
+   * 
+   * 规定了为`true`，没规定为`false`
+   * 
+   * @default true
+   */
+  prescribedUpdateUrl?: boolean;
+
+  /**
    * 若与现有收录订阅的id存在重复，则填写该字段
    */
   duplicate?: boolean;
@@ -36,8 +45,7 @@ type CommonInfo = {
   /**
    * Github仓库名，形如：用户名/仓库名
    * 
-   * @example
-   * Adpro-Team/GKD_THS_List
+   * @example Adpro-Team/GKD_subscription
    */
   repo?: string;
 
@@ -62,4 +70,11 @@ type SubUrlsInfo = {
    * 订阅导入链接
    */
   importUrl: string;
+
+  /**
+   * 当前导入链接是订阅内部规定的 `updateUrl` 则设置该字段为 `true`
+   * 
+   * @default false
+   */
+  defaultUpdateUrl?: boolean;
 };

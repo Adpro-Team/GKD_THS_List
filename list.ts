@@ -5,6 +5,7 @@ export const List: Root = [
     name: 'Adpro的GKD订阅',
     author: 'Adpro',
     id: 825,
+    prescribedUpdateUrl: false,
     subUrls: [
       {
         name: 'gitmirror源（国内）',
@@ -26,6 +27,7 @@ export const List: Root = [
     subUrls: [
       {
         name: 'gitmirror源（国内）',
+        defaultUpdateUrl: true,
         importUrl: 'https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5',
       },
     ],
@@ -40,6 +42,7 @@ export const List: Root = [
     subUrls: [
       {
         name: 'Github源',
+        defaultUpdateUrl: true,
         importUrl: 'https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
       },
       {
@@ -74,6 +77,7 @@ export const List: Root = [
       },
       {
         name: 'npmmirror源（国内）',
+        defaultUpdateUrl: true,
         importUrl: 'https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files',
       },
       {
@@ -92,6 +96,7 @@ export const List: Root = [
     subUrls: [
       {
         name: 'gitmirror源（国内）',
+        defaultUpdateUrl: true,
         importUrl: 'https://raw.gitmirror.com/JamisonLeo/GKD-subscription/main/subscription.json',
       },
     ],
@@ -106,6 +111,7 @@ export const List: Root = [
     subUrls: [
       {
         name: 'gitmirror源（国内）',
+        defaultUpdateUrl: true,
         importUrl: 'https://raw.gitmirror.com/YaChengMu/subscription/main/dist/gkd.json5',
       },
     ],

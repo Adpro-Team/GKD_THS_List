@@ -1,14 +1,8 @@
-import { Root, IArray } from "./types";
 import { List } from "../list";
 
-const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
-  return Array<T>().concat(array);
-};
-
 export const check = ()=>{
-  const ListArray = iArrayToArray(List);
   let id: number[] = [];
-  ListArray.forEach((a)=>{
+  List.forEach((a)=>{
     id.push(a.id);
     if((!a.repo && a.branch) || (a.repo && !a.branch)){
       throw new Error('repo and branch must exist or not exist at the same time.');
@@ -22,7 +16,7 @@ export const check = ()=>{
       return
     }
 
-    if(temp.indexOf(id[i]) != -1 && ListArray[i].duplicate !== true){
+    if(temp.indexOf(id[i]) != -1 && List[i].duplicate !== true){
       throw new Error('Can not add the subscription that has same ids.');
       return
     }

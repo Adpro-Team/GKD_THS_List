@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "scripts": {
+    "check": "npm exec tsx ./scripts/check.ts",
+    "update": "npm exec tsx ./scripts/update.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.11.16"
   },
