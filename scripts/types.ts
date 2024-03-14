@@ -1,6 +1,4 @@
-export type IArray<T> = T | T[];
-
-export type Root = IArray<CommonInfo>;
+export type Root = CommonInfo[];
 
 type CommonInfo = {
   /**
@@ -33,7 +31,7 @@ type CommonInfo = {
   /**
    * 包含所有订阅链接的数组
    */
-  subUrls: IArray<SubUrlsInfo>;
+  subUrls: SubUrlsInfo[];
 
   /**
    * Github仓库名，形如：用户名/仓库名

@@ -7,7 +7,12 @@ export const List: Root = [
     id: 825,
     subUrls: [
       {
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5',
+      },
+      {
+        name: 'Gitee源（国内）',
+        importUrl: 'https://gitee.com/adpro/GKD_subscription/raw/main/dist/Adpro_gkd.json5',
       },
     ],
     repo: 'Adpro-Team/GKD_subscription',
@@ -20,6 +25,7 @@ export const List: Root = [
     id: 666,
     subUrls: [
       {
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5',
       },
     ],
@@ -37,11 +43,11 @@ export const List: Root = [
         importUrl: 'https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
       },
       {
-        name: 'npmmirror源',
+        name: 'npmmirror源（国内）',
         importUrl: 'https://registry.npmmirror.com/@aoguai/subscription/latest/files',
       },
       {
-        name: 'gitmirror源（国内免翻）',
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
       },
       {
@@ -67,11 +73,11 @@ export const List: Root = [
         importUrl: 'https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5',
       },
       {
-        name: 'npmmirror源',
+        name: 'npmmirror源（国内）',
         importUrl: 'https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files',
       },
       {
-        name: '国内镜像',
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5',
       },
     ],
@@ -85,6 +91,7 @@ export const List: Root = [
     id: 1025,
     subUrls: [
       {
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/JamisonLeo/GKD-subscription/main/subscription.json',
       },
     ],
@@ -98,6 +105,7 @@ export const List: Root = [
     id: 303,
     subUrls: [
       {
+        name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/YaChengMu/subscription/main/dist/gkd.json5',
       },
     ],
