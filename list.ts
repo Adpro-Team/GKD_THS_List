@@ -119,4 +119,20 @@ export const List: Root = [
     branch: 'main',
     active: true,
   },
+  {
+    name: "田所浩二的GKD订阅",
+    author: "たどころ こうじ",
+    id: 114514,
+    subUrls: [
+      {
+        name: "gitmirror源（国内）",
+        defaultUpdateUrl: true,
+        importUrl:
+          "https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5",
+      },
+    ],
+    repo: "gkd-sub-repo/114514_subscription",
+    branch: "main",
+    active: true,
+  },
 ];
