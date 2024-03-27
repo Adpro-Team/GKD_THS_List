@@ -39,23 +39,19 @@ export const List: Root = [
     name: '奥怪的GKD订阅',
     author: 'aoguai',
     id: 86,
+    prescribedUpdateUrl: false,
     subUrls: [
       {
         name: 'Github源',
-        defaultUpdateUrl: true,
         importUrl: 'https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
       },
       {
         name: 'npmmirror源（国内）',
-        importUrl: 'https://registry.npmmirror.com/@aoguai/subscription/latest/files',
+        importUrl: 'https://registry.npmmirror.com/@aoguai/subscription/latest/files/dist/aoguai_gkd.json5',
       },
       {
         name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
-      },
-      {
-        name: 'Cloudflare源',
-        importUrl: 'https://gkd.aoguai.top/',
       },
       {
         name: 'jsDelivr源',
