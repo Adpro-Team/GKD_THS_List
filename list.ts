@@ -24,10 +24,10 @@ export const List: Root = [
     name: 'AIsouler的GKD订阅',
     author: 'AIsouler',
     id: 666,
+    prescribedUpdateUrl: false,
     subUrls: [
       {
         name: 'gitmirror源（国内）',
-        defaultUpdateUrl: true,
         importUrl: 'https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5',
       },
     ],
