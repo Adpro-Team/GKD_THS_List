@@ -11,10 +11,6 @@ export const List: Root = [
         name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5',
       },
-      {
-        name: 'Gitee源（国内）',
-        importUrl: 'https://gitee.com/adpro/GKD_subscription/raw/main/dist/Adpro_gkd.json5',
-      },
     ],
     repo: 'Adpro-Team/GKD_subscription',
     branch: 'main',
