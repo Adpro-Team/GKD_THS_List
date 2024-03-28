@@ -98,7 +98,7 @@ export const List: Root = [
     ],
     repo: 'JamisonLeo/GKD-subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: 'YaChengMu的GKD订阅',
