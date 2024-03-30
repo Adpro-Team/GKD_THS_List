@@ -1,4 +1,4 @@
-import { List } from "../list";
+import List from "../list";
 import fs from 'node:fs/promises';
 
 export const writeReadMeMd = async() => {

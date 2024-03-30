@@ -1,4 +1,4 @@
-import { List } from "../list";
+import List from "../list";
 
 export const check = ()=>{
   let id: number[] = [];

@@ -1,6 +1,6 @@
 import { Root } from './scripts/types'
 
-export const List: Root = [
+const List: Root = [
   {
     name: 'Adpro的GKD订阅',
     author: 'Adpro',
@@ -142,3 +142,5 @@ export const List: Root = [
     active: true,
   },
 ];
+
+export default List;
