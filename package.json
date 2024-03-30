@@ -4,11 +4,10 @@
     "check": "npm exec tsx ./scripts/check.ts",
     "update": "npm exec tsx ./scripts/update.ts"
   },
-  "devDependencies": {
-    "@types/node": "^20.11.16"
-  },
   "dependencies": {
+    "@types/node": "^20.12.2",
+    "pnpm": "^8.15.5",
     "tsx": "^4.7.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.3"
   }
 }

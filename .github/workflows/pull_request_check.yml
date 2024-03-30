@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.1
 
-      - run: npm ci
+      - uses: actions/setup-node@v4.0.1
+
+      - uses: pnpm/action-setup@v3
 
       - name: Ensure Files Changed
         uses: danieljimeneznz/ensure-files-changed@v4.1.1
@@ -21,6 +23,4 @@ jobs:
             list.ts
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4.0.1
-
-      - run: npm run check
+      - run: pnpm check
