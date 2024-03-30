@@ -8,5 +8,6 @@
     "@types/node": "^20.12.2",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
-  }
+  },
+  "packageManager": "pnpm@8.15.5"
 }
