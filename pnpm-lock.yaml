@@ -8,9 +8,6 @@ dependencies:
   '@types/node':
     specifier: ^20.12.2
     version: 20.12.2
-  pnpm:
-    specifier: ^8.15.5
-    version: 8.15.5
   tsx:
     specifier: ^4.7.1
     version: 4.7.1
@@ -276,12 +273,6 @@ packages:
     resolution: {integrity: sha512-ZvkrzoUA0PQZM6fy6+/Hce561s+faD1rsNwhnO5FelNjyy7EMGJ3Rz1AQ8GYDWjhRs/7dBLOEJvhK8MiEJOAFg==}
     dependencies:
       resolve-pkg-maps: 1.0.0
-    dev: false
-
-  /pnpm@8.15.5:
-    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
-    engines: {node: '>=16.14'}
-    hasBin: true
     dev: false
 
   /resolve-pkg-maps@1.0.0:

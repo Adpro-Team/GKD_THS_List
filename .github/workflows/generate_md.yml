@@ -15,8 +15,12 @@ jobs:
           fetch-depth: 0
 
       - uses: actions/setup-node@v4.0.1
+        with:
+          node-version: 20
 
       - uses: pnpm/action-setup@v3
+
+      - run: pnpm install
 
       - id: check
         run: pnpm check
