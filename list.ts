@@ -112,19 +112,33 @@ export const List: Root = [
     active: true,
   },
   {
-    name: "田所浩二的GKD订阅",
-    author: "たどころ こうじ",
+    name: '田所浩二的GKD订阅',
+    author: 'たどころ こうじ',
     id: 114514,
     subUrls: [
       {
-        name: "gitmirror源（国内）",
+        name: 'gitmirror源（国内）',
         defaultUpdateUrl: true,
-        importUrl:
-          "https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5",
+        importUrl: 'https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5',
       },
     ],
-    repo: "gkd-sub-repo/114514_subscription",
-    branch: "main",
+    repo: 'gkd-sub-repo/114514_subscription',
+    branch: 'main',
+    active: true,
+  },
+  {
+    name: '梦念逍遥の订阅',
+    author: '梦念逍遥',
+    id: 1,
+    subUrls: [
+      {
+        name: 'npmmirror源（国内）',
+        defaultUpdateUrl: true,
+        importUrl: 'https://registry.npmmirror.com/gkd-subscription/latest/files',
+      },
+    ],
+    repo: 'MengNianxiaoyao/gkd-subscription',
+    branch: 'main',
     active: true,
   },
 ];
