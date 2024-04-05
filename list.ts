@@ -11,6 +11,10 @@ const List: Root = [
         name: 'gitmirror源（国内）',
         importUrl: 'https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5',
       },
+      {
+        name: 'npmmirror源（国内）',
+        importUrl: 'https://registry.npmmirror.com/@adpro/gkd_subscription/latest/files/dist/Adpro_gkd.json5',
+      },
     ],
     repo: 'Adpro-Team/GKD_subscription',
     branch: 'main',
