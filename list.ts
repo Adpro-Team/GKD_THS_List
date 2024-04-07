@@ -29,6 +29,11 @@ const List: Root = [
     prescribedUpdateUrl: false,
     subUrls: [
       {
+        name: "npmmirror源（国内，推荐使用）",
+        importUrl:
+          "https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5",
+      },
+      {
         name: "gitmirror源（国内）",
         importUrl:
           "https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5",
