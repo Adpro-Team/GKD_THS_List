@@ -104,15 +104,15 @@ const List: Root = [
   {
     name: '田所浩二的GKD订阅',
     author: 'たどころ こうじ',
+    prescribedUpdateUrl: false,
     id: 114514,
     subUrls: [
       {
         name: 'gitmirror源（国内）',
-        defaultUpdateUrl: true,
         importUrl: 'https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5',
       },
       {
-        name: 'npmmirror源（国内）',
+        name: 'npmmirror源（国内）（推荐使用）',
         importUrl: 'https://registry.npmmirror.com/@kunjinkao/gkd-subscription/latest/files/dist/114514_gkd.json5',
       },
       {
