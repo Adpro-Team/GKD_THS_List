@@ -31,6 +31,11 @@ const List: Root = [
         importUrl:
           'https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5',
       },
+      {
+        name: 'GitHub源',
+        importUrl:
+          'https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5',
+      },
     ],
     repo: 'AIsouler/GKD_subscription',
     branch: 'main',
