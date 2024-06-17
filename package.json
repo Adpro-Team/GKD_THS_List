@@ -1,8 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "check": "npm exec tsx ./scripts/check.ts",
-    "update": "npm exec tsx ./scripts/update.ts"
+    "check": "pnpm exec tsx ./scripts/check.ts",
+    "update": "pnpm exec tsx ./scripts/update.ts"
   },
   "dependencies": {
     "@types/node": "^20.14.2",

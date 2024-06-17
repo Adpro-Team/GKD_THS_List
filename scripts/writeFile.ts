@@ -10,7 +10,7 @@ export const writeReadMeMd = async() => {
     let repoText = repoUrl == null ? '无' : a.repo;
     list += `|${a.name}|${String(a.id)}|${a.author}|`;
     list += a.prescribedUpdateUrl == undefined || a.prescribedUpdateUrl ? '由订阅内部规定链接更新|' : '从导入链接更新|';
-    list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl})|<ul>`;
+    list += repoText == '无' ? `${repoText}|` : `[${repoText}](${repoUrl}) ![GitHub Repo stars](https://img.shields.io/github/stars/${repoText})|<ul>`;
     const subUrls = a.subUrls;
     subUrls.forEach((b)=>{
       let index = 1;
