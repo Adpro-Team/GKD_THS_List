@@ -71,6 +71,7 @@ const List: Root = [
   {
     name: '甘霖的GKD订阅',
     author: 'ganlinte',
+    prescribedUpdateUrl: false,
     id: 233,
     subUrls: [
       {
@@ -79,7 +80,6 @@ const List: Root = [
       },
       {
         name: 'npmmirror源（国内）',
-        defaultUpdateUrl: true,
         importUrl: 'https://registry.npmmirror.com/@ganlinte/gkd-subscription/latest/files',
       },
     ],
