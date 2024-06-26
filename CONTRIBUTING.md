@@ -17,8 +17,6 @@
   - 放弃申请收录
 
   - 更改你的`id`
-  
-  - 使用`duplicate`字段，使用方法请查看[注意事项](#注意事项)第3点
 
 5. 向本项目发起PR（Pull Request）
 
@@ -70,10 +68,8 @@
 
 2. 你的订阅的基本信息（上方需填写的项皆为基本信息）出现任何改动，请相应地修改信息
 
-3. `duplicate`字段与`id`字段同级，接受的值类型为`boolean`，即`true`和`false`。如果存在重复id，请将该字段的值设置为`true`
-
 ## 本地订阅申请
 
-邮箱：adpro_qwq@qq.com
+邮箱：adpro_qwq@qq.com 或 adpro@adproqwq.top
 
 博客评论区：[点击跳转](https://blog.adproqwq.xyz/2024/02/24/GKD%E6%9C%AC%E5%9C%B0%E8%AE%A2%E9%98%85%E6%94%B6%E5%BD%95%E7%94%B3%E8%AF%B7/)

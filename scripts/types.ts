@@ -28,11 +28,6 @@ type CommonInfo = {
   prescribedUpdateUrl?: boolean;
 
   /**
-   * 若与现有收录订阅的id存在重复，则填写该字段
-   */
-  duplicate?: boolean;
-
-  /**
    * 是否为本地订阅
    */
   local?: boolean;
