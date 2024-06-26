@@ -123,7 +123,7 @@ const List: Root = [
     ],
     repo: 'gkd-sub-repo/114514_subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: '梦念逍遥の订阅',
