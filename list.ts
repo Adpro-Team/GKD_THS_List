@@ -88,21 +88,6 @@ const List: Root = [
     active: true,
   },
   {
-    name: 'Jamison Leo的GKD订阅',
-    author: 'Jamison Leo',
-    id: 1025,
-    subUrls: [
-      {
-        name: 'gitmirror源（国内）',
-        defaultUpdateUrl: true,
-        importUrl: 'https://raw.gitmirror.com/JamisonLeo/GKD-subscription/main/subscription.json',
-      },
-    ],
-    repo: 'JamisonLeo/GKD-subscription',
-    branch: 'main',
-    active: false,
-  },
-  {
     name: '田所浩二的GKD订阅',
     author: 'たどころ こうじ',
     prescribedUpdateUrl: false,
