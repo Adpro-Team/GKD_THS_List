@@ -123,7 +123,7 @@ const List: Root = [
     ],
     repo: 'MengNianxiaoyao/gkd-subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
 ];
 
