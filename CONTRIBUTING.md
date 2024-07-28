@@ -72,4 +72,4 @@
 
 邮箱：adpro_qwq@qq.com 或 adpro@adproqwq.top
 
-博客评论区：[点击跳转](https://blog.adproqwq.xyz/2024/02/24/GKD%E6%9C%AC%E5%9C%B0%E8%AE%A2%E9%98%85%E6%94%B6%E5%BD%95%E7%94%B3%E8%AF%B7/)
+博客评论区：[点击跳转](https://blog.adproqwq.top/2024/02/24/GKD%E6%9C%AC%E5%9C%B0%E8%AE%A2%E9%98%85%E6%94%B6%E5%BD%95%E7%94%B3%E8%AF%B7/)
