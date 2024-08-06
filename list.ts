@@ -125,6 +125,21 @@ const List: Root = [
     branch: 'main',
     active: false,
   },
+  {
+    name: 'jiuqianyuan的GKD订阅',
+    author: 'jiuqianyuan',
+    id: 717,
+    prescribedUpdateUrl: false,
+    subUrls: [
+      {
+        name: 'gitmirror源（国内）',
+        importUrl: 'https://raw.gitmirror.com/jiuqianyuan/gkd-subscription-template/dev/dist/gkd.json5',
+      },
+    ],
+    repo: 'jiuqianyuan/gkd-subscription-template',
+    branch: 'dev',
+    active: true,
+  },
 ];
 
 export default List;
