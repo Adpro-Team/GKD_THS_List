@@ -42,33 +42,6 @@ const List: Root = [
     active: true,
   },
   {
-    name: '奥怪的GKD订阅',
-    author: 'aoguai',
-    prescribedUpdateUrl: false,
-    id: 86,
-    subUrls: [
-      {
-        name: 'Github源',
-        importUrl: 'https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
-      },
-      {
-        name: 'npmmirror源（国内）',
-        importUrl: 'https://registry.npmmirror.com/@aoguai/subscription/latest/files/dist/aoguai_gkd.json5',
-      },
-      {
-        name: 'gitmirror源（国内）',
-        importUrl: 'https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
-      },
-      {
-        name: 'jsDelivr源',
-        importUrl: 'https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5',
-      },
-    ],
-    repo: 'aoguai/subscription',
-    branch: 'custom',
-    active: true,
-  },
-  {
     name: '甘霖的GKD订阅',
     author: 'ganlinte',
     prescribedUpdateUrl: false,
@@ -88,29 +61,6 @@ const List: Root = [
     active: true,
   },
   {
-    name: '田所浩二的GKD订阅',
-    author: 'たどころ こうじ',
-    prescribedUpdateUrl: false,
-    id: 114514,
-    subUrls: [
-      {
-        name: 'gitmirror源（国内）',
-        importUrl: 'https://raw.gitmirror.com/gkd-sub-repo/114514_subscription/main/dist/114514_gkd.json5',
-      },
-      {
-        name: 'npmmirror源（国内）（推荐使用）',
-        importUrl: 'https://registry.npmmirror.com/@kunjinkao/gkd-subscription/latest/files/dist/114514_gkd.json5',
-      },
-      {
-        name: 'jsDelivr源',
-        importUrl: 'https://cdn.jsdelivr.net/gh/gkd-sub-repo/114514_subscription@main/dist/114514_gkd.json5',
-      },
-    ],
-    repo: 'gkd-sub-repo/114514_subscription',
-    branch: 'main',
-    active: false,
-  },
-  {
     name: '梦念逍遥の订阅',
     author: '梦念逍遥',
     id: 1,
@@ -126,18 +76,18 @@ const List: Root = [
     active: false,
   },
   {
-    name: 'jiuqianyuan的GKD订阅',
+    name: '九千院的GKD订阅',
     author: 'jiuqianyuan',
     id: 717,
     prescribedUpdateUrl: false,
     subUrls: [
       {
         name: 'gitmirror源（国内）',
-        importUrl: 'https://raw.gitmirror.com/jiuqianyuan/gkd-subscription-template/dev/dist/gkd.json5',
+        importUrl: 'https://raw.gitmirror.com/jiuqianyuan/GKD_subscription/main/dist/gkd.json5',
       },
     ],
-    repo: 'jiuqianyuan/gkd-subscription-template',
-    branch: 'dev',
+    repo: 'jiuqianyuan/GKD_subscription',
+    branch: 'main',
     active: true,
   },
 ];
