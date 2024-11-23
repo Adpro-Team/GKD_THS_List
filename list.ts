@@ -90,6 +90,21 @@ const List: Root = [
     branch: 'main',
     active: true,
   },
+  {
+    name: 'Mrlc的GKD订阅',
+    author: 'Mrlc',
+    id: 2,
+    prescribedUpdateUrl: false,
+    subUrls: [
+      {
+        name: 'npmmirror源（国内）',
+        importUrl: 'https://registry.npmmirror.com/gkd-mrlc/latest/files/dist/gkd.json5',
+      },
+    ],
+    repo: 'mrlctate/gkd-mrlc',
+    branch: 'main',
+    active: true,
+  },
 ];
 
 export default List;
