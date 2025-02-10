@@ -88,7 +88,7 @@ const List: Root = [
     ],
     repo: 'jiuqianyuan/GKD_subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: 'Mrlc的GKD订阅',
