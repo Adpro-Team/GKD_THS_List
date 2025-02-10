@@ -18,7 +18,7 @@ const List: Root = [
     ],
     repo: 'Adpro-Team/GKD_subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: 'AIsouler的GKD订阅',
@@ -39,7 +39,7 @@ const List: Root = [
     ],
     repo: 'AIsouler/GKD_subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: '甘霖的GKD订阅',
