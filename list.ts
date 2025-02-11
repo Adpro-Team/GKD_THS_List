@@ -42,6 +42,33 @@ const List: Root = [
     active: false,
   },
   {
+    name: '奥怪的GKD订阅',
+    author: 'aoguai',
+    prescribedUpdateUrl: false,
+    id: 86,
+    subUrls: [
+      {
+        name: 'Github源',
+        importUrl: 'https://raw.githubusercontent.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
+      },
+      {
+        name: 'npmmirror源（国内）',
+        importUrl: 'https://registry.npmmirror.com/@aoguai/subscription/latest/files/dist/aoguai_gkd.json5',
+      },
+      {
+        name: 'gitmirror源（国内）',
+        importUrl: 'https://raw.gitmirror.com/aoguai/subscription/custom/dist/aoguai_gkd.json5',
+      },
+      {
+        name: 'jsDelivr源',
+        importUrl: 'https://cdn.jsdelivr.net/gh/aoguai/subscription@custom/dist/aoguai_gkd.json5',
+      },
+    ],
+    repo: 'aoguai/subscription',
+    branch: 'custom',
+    active: true,
+  },
+  {
     name: '甘霖的GKD订阅',
     author: 'ganlinte',
     prescribedUpdateUrl: false,
