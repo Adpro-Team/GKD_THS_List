@@ -39,7 +39,7 @@ const List: Root = [
     ],
     repo: 'AIsouler/GKD_subscription',
     branch: 'main',
-    active: false,
+    active: true,
   },
   {
     name: '奥怪的GKD订阅',
