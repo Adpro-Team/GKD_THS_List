@@ -100,7 +100,7 @@ const List: Root = [
     ],
     repo: 'MengNianxiaoyao/gkd-subscription',
     branch: 'main',
-    active: false,
+    active: true,
   },
   {
     name: '九千院的GKD订阅',
