@@ -2,7 +2,7 @@ import { Root } from './scripts/types'
 
 const List: Root = [
   {
-    name: 'Adpro的GKD订阅',
+    name: 'AdproのGKD订阅',
     author: 'Adpro',
     id: 825,
     prescribedUpdateUrl: false,
@@ -39,7 +39,7 @@ const List: Root = [
     ],
     repo: 'AIsouler/GKD_subscription',
     branch: 'main',
-    active: true,
+    active: false,
   },
   {
     name: '奥怪的GKD订阅',
