@@ -155,7 +155,7 @@ const List: Root = [
         importUrl: 'https://xget.xi-xu.me/gh/Lin-arm/GKD_subscription/raw/main/dist/gkd.json5',
       },
       {
-        name: 'jsdelivr源（国内，可能不稳定,更新滞后24h，备用）',
+        name: 'jsdelivr源（国内，可能不稳定，更新滞后24h，备用）',
         importUrl: 'https://cdn.jsdelivr.net/gh/Lin-arm/GKD_subscription@main/dist/gkd.json5',
       },
     ],
