@@ -139,7 +139,7 @@ const List: Root = [
     prescribedUpdateUrl: false,
     subUrls: [
       {
-        name: 'CXPLAY 提供域名的CF源 (国内)',
+        name: 'CXPLAY 提供域名的CF源（国内）',
         importUrl: 'https://gkd667.vv.ax/gkd.json5',
       },
       {
@@ -147,15 +147,15 @@ const List: Root = [
         importUrl: 'https://raw.githubusercontent.com/Lin-arm/GKD_subscription/main/dist/gkd.json5',
       },
       {
-        name: 'CloudFlare源 (国内，备用)',
+        name: 'CloudFlare源（国内，备用）',
         importUrl: 'https://gkd-subscription-667.pages.dev/gkd.json5',
       },
       {
-        name: 'Xget源 (国内，备用)',
+        name: 'Xget源（国内，备用）',
         importUrl: 'https://xget.xi-xu.me/gh/Lin-arm/GKD_subscription/raw/main/dist/gkd.json5',
       },
       {
-        name: 'jsdelivr源 (国内，可能不稳定,更新滞后24h，备用)',
+        name: 'jsdelivr源（国内，可能不稳定,更新滞后24h，备用）',
         importUrl: 'https://cdn.jsdelivr.net/gh/Lin-arm/GKD_subscription@main/dist/gkd.json5',
       },
     ],
