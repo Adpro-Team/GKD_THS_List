@@ -132,6 +132,37 @@ const List: Root = [
     branch: 'main',
     active: true,
   },
+  {
+    name: 'id667的GKD订阅🚀',
+    author: '👻',
+    id: 667,
+    prescribedUpdateUrl: false,
+    subUrls: [
+      {
+        name: 'CXPLAY 提供域名的CF源（国内）',
+        importUrl: 'https://gkd667.vv.ax/gkd.json5',
+      },
+      {
+        name: 'GitHub源',
+        importUrl: 'https://raw.githubusercontent.com/Lin-arm/GKD_subscription/main/dist/gkd.json5',
+      },
+      {
+        name: 'CloudFlare源（国内，备用）',
+        importUrl: 'https://gkd-subscription-667.pages.dev/gkd.json5',
+      },
+      {
+        name: 'Xget源（国内，备用）',
+        importUrl: 'https://xget.xi-xu.me/gh/Lin-arm/GKD_subscription/raw/main/dist/gkd.json5',
+      },
+      {
+        name: 'jsdelivr源（国内，可能不稳定，更新滞后24h，备用）',
+        importUrl: 'https://cdn.jsdelivr.net/gh/Lin-arm/GKD_subscription@main/dist/gkd.json5',
+      },
+    ],
+    repo: 'Lin-arm/GKD_subscription',
+    branch: 'main',
+    active: true,
+  },
 ];
 
 export default List;
