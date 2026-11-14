@@ -132,6 +132,27 @@ const List: Root = [
     branch: 'main',
     active: true,
   },
+  {
+    name: 'Nisconder的GKD订阅',
+    author: 'Nisconder',
+    id: 20261113,
+    prescribedUpdateUrl: true,
+    subUrls: [
+      {
+        name: '博客源',
+        importUrl: 'https://nisconder.pages.dev/gkd/subscription.json5',
+        defaultUpdateUrl: true,
+      },
+      {
+        name: 'GitHub源',
+        importUrl:
+          'https://raw.githubusercontent.com/nisconder/Nisconder-GKD-Subscription/main/dist/gkd.json5',
+      },
+    ],
+    repo: 'nisconder/Nisconder-GKD-Subscription',
+    branch: 'main',
+    active: true,
+  },
 ];
 
 export default List;
